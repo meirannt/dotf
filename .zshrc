@@ -17,8 +17,14 @@ setopt autocd extendedglob
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
-PS1='%F{yellow}%B%#%f%b '
-PS2='%F{yellow}%B>%f%b'
+export PS1='%F{yellow}%B%#%f%b '
+export PS2='%F{yellow}%B>%f%b '
+
+export EDITOR='vim'
 
 alias ls='ls --color=auto'
+alias rm='rm -i'
+alias df='df -T'
+alias du1='du --max-depth=1'
+alias cal='cal -m'
 
