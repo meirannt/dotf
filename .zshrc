@@ -18,4 +18,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 PS1='%F{yellow}%B%#%f%b '
+PS2='%F{yellow}%B>%f%b'
+
+alias ls='ls --color=auto'
 
