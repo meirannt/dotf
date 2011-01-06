@@ -14,8 +14,12 @@ runtime! archlinux.vim
 " Or better yet, read /usr/share/vim/vim72/vimrc_example.vim or the vim manual
 " and configure vim to your own liking!
 
+set shortmess=aI
+set smartindent
 set number
 set colorcolumn=80
+set backup
+set backupdir=/tmp
 
 syntax on
 

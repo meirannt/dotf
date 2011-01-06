@@ -9,7 +9,13 @@
 # exec startxfce4
 # ...or the Window Manager of your choice
 
-setxkbmap -layout "us,ru,ua" -option "grp:caps_toggle"
+setxkbmap -layout "us,ru,ua" -option "grp:caps_toggle" -option "terminate:ctrl_alt_bksp"
+
+while true
+do
+	xsetroot -name "$(date +"%a %d.%m %H:%M")"
+	sleep 1m 
+done &
 
 dwm &
 urxvt -e tmux
