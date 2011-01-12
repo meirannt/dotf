@@ -19,6 +19,7 @@ bindkey -e
 
 setopt no_hup
 setopt pushd_to_home
+setopt hist_verify
 
 export PS1='%F{yellow}%B%#%f%b '
 export PS2='%F{yellow}%B>%f%b '

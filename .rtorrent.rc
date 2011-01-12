@@ -96,7 +96,7 @@ peer_exchange = yes
 #hash_read_ahead = 10
 
 # Interval between attempts to check the hash, in milliseconds.
-#hash_interval = 100
+hash_interval = 100
 
 # Number of attempts to check the hash while using the mincore status,
 # before forcing. Overworked systems might need lower values to get a

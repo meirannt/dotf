@@ -1,7 +1,7 @@
 always-display-description false
 article-sort-order "date-asc"
 articlelist-format "%4i %f %D %6L  %?T?|%-17T|  &?%t"
-articlelist-title-format "%N %V - Articles in feed '%T' (%u unread, %t total) - %U"
+articlelist-title-format "%T [%u/%t]"
 auto-reload no
 bloglines-auth ""
 bloglines-mark-read no
@@ -10,9 +10,10 @@ bookmark-interactive false
 browser "lynx"
 cache-file ""
 cleanup-on-quit yes
+color listfocus black white
 confirm-exit no
-datetime-format "%b %d"
-dialogs-title-format "%N %V - Dialogs"
+datetime-format "%d.%m.%y"
+dialogs-title-format "Dialogs"
 display-article-progress yes
 download-path "~/"
 download-retries 1
@@ -20,8 +21,8 @@ download-timeout 30
 error-log ""
 feed-sort-order "none-desc"
 feedlist-format "%4i %n %11u %t"
-feedlist-title-format "%N %V - Your feeds (%u unread, %t total)%?T? - tag `%T'&?"
-filebrowser-title-format "%N %V - %?O?Open File&Save File? - %f"
+feedlist-title-format "[%u/%t]"
+filebrowser-title-format "%?O?Open File&Save File? - %f"
 googlereader-flag-share ""
 googlereader-flag-star ""
 googlereader-login ""
@@ -30,18 +31,18 @@ googlereader-password ""
 googlereader-show-special-feeds true
 goto-first-unread true
 goto-next-feed yes
-help-title-format "%N %V - Help"
+help-title-format "Help"
 history-limit 100
 html-renderer "internal"
 ignore-mode "download"
-itemview-title-format "%N %V - Article '%T'"
+itemview-title-format "%T"
 keep-articles-days 0
 mark-as-read-on-hover false
 max-downloads 1
 max-items 0
 notify-always no
 notify-beep no
-notify-format "newsbeuter: finished reload, %f unread feeds (%n unread articles total)"
+notify-format "finished reload, %f unread feeds (%n unread articles total)"
 notify-program ""
 notify-screen no
 notify-xterm no
@@ -59,16 +60,16 @@ reload-threads 1
 reload-time 60
 save-path "~/"
 search-highlight-colors "black" "yellow" "bold" 
-searchresult-title-format "%N %V - Search result (%u unread, %t total)"
-selectfilter-title-format "%N %V - Select Filter"
-selecttag-title-format "%N %V - Select Tag"
+searchresult-title-format "Search result (%u unread, %t total)"
+selectfilter-title-format "Select Filter"
+selecttag-title-format "Select Tag"
 show-keymap-hint yes
 show-read-articles yes
 show-read-feeds yes
 suppress-first-reload no
 text-width 0
 urls-source "local"
-urlview-title-format "%N %V - URLs"
+urlview-title-format "URLs"
 use-proxy no
 user-agent ""
 # bind-key # goto-url feedlist
