@@ -1,0 +1,3 @@
+nmap <F10> <ESC>:set guioptions!=m<CR><A-m>
+imap <F10> <ESC>:set guioptions!=m<CR><A-m>
+

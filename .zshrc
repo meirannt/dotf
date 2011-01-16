@@ -39,7 +39,7 @@ alias ls='ls --color=auto'
 alias rm='rm -i'
 alias df='df -T'
 alias cal='cal -m'
-alias feh='feh -FY'
+alias feh='feh -dFY'
 alias getmail='getmail -q'
 
 alias find='find 2> /dev/null'

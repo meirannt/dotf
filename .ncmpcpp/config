@@ -142,7 +142,7 @@ playlist_disable_highlight_delay = "0"
 ## Note: colors can be nested.
 ##
 #
-song_list_format = "$3{%a - }{%t}|{$8%f$9}$R{$3[%l]$9}$9"
+song_list_format = "$3{%a - }{%t}|{%f}$R{$3[%l]$9}$9"
 #
 #song_status_format = "{{%a{ \"%b\"{ (%y)}} - }{%t}}|{%f}"
 #
@@ -226,7 +226,7 @@ song_window_title_format = "{%a - }{%t}|{%f}"
 ##   not available.
 ##
 #
-song_columns_list_format = "(30)[green]{a} (30)[green]{t|f} (30)[green]{b} (10r)[green]{l}"
+song_columns_list_format = "(25)[green]{a} (25)[green]{t} (20)[green]{b} (20)[green]{f} (10)[green]{lr} (4f)[green]{}"
 #
 ##### various settings #####
 #
@@ -245,7 +245,7 @@ song_columns_list_format = "(30)[green]{a} (30)[green]{t|f} (30)[green]{b} (10r)
 #
 #playlist_separate_albums = "no"
 #
-playlist_display_mode = "classic"
+playlist_display_mode = "columns"
 #(classic/columns)
 #
 #browser_display_mode = "classic" (classic/columns)
